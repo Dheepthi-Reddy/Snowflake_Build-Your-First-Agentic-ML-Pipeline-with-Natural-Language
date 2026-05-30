@@ -28,7 +28,20 @@ Deploy & serve: Model serving and Feature serving
 Monitor: Model observability and explainability
 
 Next layers:
-Snowflake Notebooks just like jupyter notebooks.
+Snowflake Notebooks just like Jupyter notebooks. Can use any other IDE of choice.
+
+At the top layer:
+We have Cortex Code (also called COCO). It is a Snowflake's general purpose AI coding assistant, ties everything together and speeds the automation for ML development.
+
+## What makes the Cortex Code different:
+- Deeply integrated with Snowflake, so it comes preloaded with Snowflake and ML best practices
+- It is a multi agent under the hood, if there is a complex task, it makes the workflow faster by assigning it to the sub agents to work paralalley.
+- We can run the code written by COCO in a sandbox environment safely without damaging the local system files or production database.
+- COCO is iterative, so it learns from any corrections made.
+
+## E-commerce lifetime value prediction Model:
+
+
 
 
 

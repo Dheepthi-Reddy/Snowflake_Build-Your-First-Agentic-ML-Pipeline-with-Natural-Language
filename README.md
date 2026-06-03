@@ -45,7 +45,10 @@ Doing through Natural language and no coding.
 
 By letting the COCO drive us in building the model, we will train multiple iteration models and we will automatically run batch inference on these models.
 
-Creating Synthetic dataset
+- Creating Synthetic dataset.
+- Perform EDA
+- Registering the model and inferencing.
+- Generate Predictions.
 
 
 
